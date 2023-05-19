@@ -54,5 +54,5 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
   }
   $users=$inf;
   $abil=$inf2;
-  include('table.php');
+  include('includes/table.php');
 }
