@@ -1,6 +1,3 @@
-<FilesMatch "\.*">
-SetHandler none
-</FilesMatch>
 <?php
 
 // Отправляем браузеру правильную кодировку,
@@ -175,7 +172,7 @@ catch(PDOException $e){
 }
   // В нем будут доступны переменные $messages, $errors и $values для вывода 
   // сообщений, полей с ранее заполненными данными и признаками ошибок.
-  include('form.php');
+  include('includes/form.php');
 }
 // Иначе, если запрос был методом POST, т.е. нужно проверить данные и сохранить их в XML-файл.
 else {
